@@ -1,0 +1,8 @@
+xrun \
+-uvmhome CDNS-1.2 \
++incdir+../sv \
+../sv/top.sv \
+-access +rw \
+-timescale 1ns/1ps \
+-64bit \
+-run -exit $*
